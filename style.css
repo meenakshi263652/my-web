@@ -23,6 +23,14 @@ body{
     color: white;
     font-weight: bold;
 }
+.banner-button a{
+    text-decoration: none;
+    color: black;
+}
+.banner-button button:hover{
+    background-color: black;
+    color: white;
+}
 .images{
     width: 100%;
 }
@@ -97,6 +105,7 @@ body{
 }
 .fifth2{
     font-size: 25px;
+    cursor: pointer;
 }
 .fifth3{
     border-radius: 20px;
@@ -188,6 +197,11 @@ body{
     padding: 17px 55px;
     font-size: 14px;
 }
+
+.eight2 a{
+    text-decoration: none;
+    color: black;
+}
 .eight3{
     height: auto;
     width: 100%;
@@ -201,4 +215,81 @@ body{
     font-size: 17px;
     background-color: rgb(43, 42, 42);
     color: rgb(129, 128, 128);
+}
+.about-first{
+    height: 350px;
+    background-image: url("https://dev242.kodesolution.com/arotech/wp-content/uploads/2024/11/video-bg1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0,0,0,0.5);
+    background-blend-mode: multiply;
+}
+
+.about-first1{
+    font-size: 60px;
+}
+.about-first3{
+    color: white;
+    font-weight: bold;
+}
+.about-second{
+    height: 400px;
+    position: relative;
+    bottom: 500px;
+    left: 250px;
+    border: 12px solid white;
+}
+.second25{
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 1.2;
+}
+.third25 p{
+    font-size: 17px;
+}
+.forth25 img{
+    height: 70px;
+    width: 70px;
+    border-radius: 50px;
+    border: 2px solid orange;
+}
+.first25{
+    font-weight: 700;
+    font-size: 13px;
+    color:rgba(225,165,0);
+    margin: 0;
+}  
+.para{
+    font-size: 17px;
+}
+.row-image img{
+    height: 500px;
+    width: 375px;
+}
+.bgimage1{
+    height: 100px;
+}
+.bgicons{
+    background-color: rgba(225,165,0);
+    height: 70px;
+    width: 70px;
+}
+.iconpara{
+    line-height: 1;
+}
+.card-text1:hover{
+    background-color:  rgb(250, 184, 2);
+}
+.nav-text .nav-item .nav-link:hover{
+    text-decoration: none;
+    color: rgb(250, 184, 2) !important;
+}
+.hovertext:hover{
+    text-decoration: none;
+    color: rgb(250, 184, 2);
+    cursor: pointer;
+}
+.hoverborder:hover{
+    border: 1px solid rgb(250, 184, 2);
 }
