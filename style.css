@@ -28,8 +28,9 @@ body{
     color: black;
 }
 .banner-button button:hover{
-    background-color: black;
-    color: white;
+    background-color: rgb(37, 37, 35);
+    border: #000;
+    color: white !important;
 }
 .images{
     width: 100%;
